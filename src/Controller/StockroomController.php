@@ -2,6 +2,7 @@
 
 namespace Jxc\Controller;
 
+use App\Traits\ApiValidator;
 use Jxc\Model\Basic\Stockroom;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
@@ -11,7 +12,7 @@ use StructuredResponse\StructuredResponse;
 
 class StockroomController extends Controller
 {
-    use StructuredResponse;
+    use StructuredResponse, ApiValidator;
 
     public function stockroomList()
     {
