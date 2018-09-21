@@ -1,0 +1,1312 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "微软雅黑", "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+}
+
+* {
+    /*font-size: 14px !important;*/
+    padding: 0;
+    margin: 0;
+    /*color: #666;*/
+}
+
+body {
+    background: rgba(243,243,243,1);
+}
+
+a {
+    enable:false;
+}
+
+
+#nav-bar-back {
+    width: 100%;
+    height: 44px;
+    background: white;
+    position: fixed;
+    top: 0px;
+    z-index: 999;
+}
+
+#shop-home-body {
+    background: rgba(243,243,243,1);
+}
+
+#nav-bar-back i {
+    display: inline-block;
+    width: 18px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 5px;
+    background: url(./../../shop/image/baseimg/fanhui@2x.png) no-repeat center;
+}
+
+#nav-bar-back span {
+    height: 44px;
+    top:0px;
+    left: 45px;
+    font-size: 17px;
+    padding-top: 10px;
+    position: absolute;
+}
+
+/*商城首页*/
+
+.shop-app-header {
+    width: 100%;
+    height: 205px;
+    /*background: red;*/
+}
+
+.item {
+    width: 100%;
+    height: 205px;
+}
+
+.item img{
+    width: 100%;
+    height: 100%;
+}
+
+.nav-back {
+    background: white;
+    width: 100%;
+    height: 40px;
+    font-size: 17px;
+    display: inline-block;
+}
+
+.nav-back p {
+    background: red;
+    height: 100px;
+    margin-top: 10px;
+    width: 50%;
+    margin-left: 10px;
+}
+
+.nav-back i {
+    margin-left: 20px;
+    margin-top: 4px;
+    /*float: left;*/
+    /*position: absolute;*/
+    /*left: 0px;*/
+    width: 20px;
+    height: 33px;
+    background: red;
+    display: inline-block;
+    background: url(./../../shop/image/baseimg/fanhui@2x.png) no-repeat center;
+}
+
+.shop-app-header-search {
+    top: 20px;
+    left: 10%;
+    width: 80%;
+    height: 40px;
+    background: black;
+    opacity:0.2;
+    position: absolute;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 5px;
+}
+
+#shop-app-header-search-img {
+    top: 7.5px;
+    left: 10px;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+}
+
+#shop-app-header-search-text{
+    left: 50px;
+    width: 80%;
+    height: 30px;
+    top: 5px;
+    position: absolute;
+}
+
+#shop-home-activity {
+    width: 100%;
+    height: 200px;
+    background: red;
+}
+
+.shop-home-activity-item {
+    width: 50%;
+    float: left;
+    height: 100px;
+    background: white;
+    display: inline-block;
+    position: relative;
+    border-left: 1px solid rgba(231,231,231,1) !important;
+    border-bottom: 1px solid rgba(231,231,231,1) !important;
+}
+
+.shop-home-activity-item .shop-home-product-name {
+    /*background: red;*/
+    width: 100px;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.shop-home-product-title {
+    margin-top: -10px;
+    margin-left: 10px;
+    color: grey;
+    /*background: chocolate;*/
+}
+
+.shop-home-activity-imgsrc-one {
+    width: 50%;
+    height: 50%;
+    top: 50%;
+    left: 0px;
+    position: absolute;
+}
+
+.shop-home-activity-imgsrc-two {
+    width: 50%;
+    height: 100%;
+    left: 49%;
+    top: 0px;
+    position: absolute;
+}
+
+#shop-tab {
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+    background: whitesmoke;
+    z-index:999;
+    height: 49px;
+}
+
+#shop-tab ul li a {
+
+}
+
+#shop-app-tabbar-ul {
+    list-style-type:none;
+    zoom:1; width: 100%;
+}
+
+#shop-app-tabbar-ul li {
+    float:left;
+    margin:0px;
+    display:inline-block;
+    vertical-align: middle;
+    border-top:1px solid #CCC;
+    padding: 0px 25px 0px 25px;
+    width: 25%;
+    float: left;
+}
+
+#shop-app-tabbar-ul li img {
+    width:30px;
+    height:30px;
+    padding:5px;
+    border:0px;
+    display:block;
+}
+
+/*#shop-app-tabbar-ul li a {
+    disabled:false;
+}
+*/
+#shop-app-tabbar-ul li p {
+    line-height:20px;
+    color:#666; display:block;
+    text-align:center;
+}
+
+.products-section {
+    width: 100%;
+    margin-top: 10px;
+    background: white;
+    position: relative;
+}
+
+.products-section i {
+    background:url(./../../shop/image/baseimg/Safari-Forward-@2x.png) no-repeat center;
+    /*background: red;*/
+    /*width: 16px;*/
+    /*height: 28px;*/
+    width: 25px;
+    height: 20px;
+    top: 17px;
+    left: 55%;
+    position: absolute;
+
+}
+
+.shop-app-product-info {
+    width: 33.3%;
+    height: 171px;
+    float: left;
+    border-left: 1px solid rgba(247,247,247,1);
+    border-bottom: 1px solid rgba(247,247,247,1);
+    display: inline-block;
+    position: relative;
+}
+
+.shop-app-product-info img {
+    width: 100%;
+    height: 114px;
+    /*background: red;*/
+}
+
+.products-section-title {
+    width: 100%;
+    height: 35px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 35px;
+    border-bottom:1px solid rgba(231,231,231,1);
+}
+
+.products-section-title i {
+    position: relative;
+    /*margin-top: 5px;*/
+}
+
+.shop-app-product-name {
+    text-align: center;
+    font-size: 14px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-top: 8px;
+    white-space: nowrap;
+}
+
+.shop-app-product-price {
+    text-align: center;
+    color: red;
+}
+
+.shop-app-footer {
+    width: 100%;
+    height: 49px;
+}
+
+
+/*个人中心*/
+.app-personal-header {
+    width: 100%;
+    height: 123px;
+}
+
+
+#profile-app-body {
+    background: rgba(243,243,243,1);
+}
+/*img {
+    display: block;
+}*/
+
+#app-personal-bg-image {
+    width: 100%;
+    height:100%;
+}
+
+#app-personal-user-avatar {
+    width: 70px;
+    height:70px;
+    -webkit-border-radius: 35px;
+    border: 3px solid rgba(81,84,89,1);
+    margin-left: -35px; margin-top: -35px;
+    top: 62px;
+    left: 50%;
+    position: absolute;
+}
+
+#app-personal-user-nickname {
+    width: 150px;
+    margin-left: -75px;
+    top: 98px;
+    left: 50%;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    position: absolute;
+}
+
+#personalcenter-app-userinfo-section {
+    margin-top: 10px;
+}
+
+.personalcenter-app-userinfo-row  {
+    width: 100%;
+    height: 44px;
+    background: white;
+    border-bottom: 1px solid rgba(247,247,247,1);
+}
+
+.personalcenter-app-userinfo-row-title {
+    margin-left: 15px;
+    padding-top: 10px;
+    font-size: 16px;
+    height: 30px;
+    /*margin-top: 10px;*/
+}
+
+.personalcenter-app-userinfo-row-subtitle {
+    margin-right: 25px;
+    /*padding-top: 10px;*/
+    float: right;
+}
+
+/*个人中心*/
+.userprofile-app-userinfo-row-one, .userprofile-app-userinfo-row {
+    width: 100%;
+    height: 44px;
+    border-bottom: 1px solid rgba(229,229,229,1);
+}
+
+.userprofile-app-userinfo-row-one {
+    top: 10px;
+    height: 90px;
+}
+
+.userprofile-app-avatar {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+    margin-top: -5px;
+    float: right;
+}
+
+.userprofile-app-userinfo-row-title, .userprofile-app-userinfo-row-title-one {
+    margin-left: 15px;
+    font-size: 16px;
+    height: 30px;
+    margin-top: 16px;
+}
+.userprofile-app-userinfo-row-title-one {
+    margin-top: 60px;
+}
+
+.userprofile-app-userinfo-row-subtitle {
+    margin-right: 15px;
+    font-size: 16px;
+    height: 30px;
+    margin-top: 8px;
+    float: right;
+}
+
+.personalcenter-app-userinfo-row-title i {
+    background: url(./../../shop/image/baseimg/Safari-_hui@2x.png) no-repeat center;
+    width: 16px;
+    height: 28px;
+    margin-right: 15px;
+    float: right;
+}
+
+/*地址管理*/
+
+#adress-manage-app-body {
+    background: rgba(243,243,243,1);
+}
+
+.adress-app-addaddress {
+    bottom: 0px;
+    width: 100%;
+    height: 49px;
+    background: orangered;
+    position: fixed;
+    text-align: center;
+}
+
+.adress-app-addaddress {
+    width: 100%;
+    height: 49px;
+    line-height: 49px;
+    color: white;
+}
+
+.adress-app-manage {
+    bottom: 0px;
+    width: 100%;
+    height: 49px;
+    background: orangered;
+    position: fixed;
+    text-align: center;
+    line-height: 49px;
+    color: white;
+}
+
+.address-manage-app-row-info {
+    width: 100%;
+    height: 68px;
+    margin-left: 20px;
+    margin-right: 15px;
+    padding-top: 10px;
+    display: inline-block;
+    border-bottom: 1px solid rgba(229,229,229,1);
+    position: relative;
+}
+
+.address-manage-app-row-info p {
+    display: inline;
+    margin-top: 15px;
+    font-size: 13px;
+    width: 50%;
+    height: 30px;
+    /*background: red;*/
+    /*line-height: 30px;*/
+}
+
+.address-app-row-nickname {
+    /*position: absolute;*/
+}
+
+.address-app-row-phone {
+    margin-top: 15px;
+    /*padding-top: 15px;*/
+    /*position: absolute;*/
+}
+
+.address-manage-app-row-info p:last-child {
+    display: block;
+    width: 100%;
+}
+
+
+.address-app-addressrow {
+    background: white;
+    margin-top: 15px;
+    height: 109px;
+    vertical-align:middle;
+    position: relative;
+}
+
+.address-app-row-nickname {
+    font-size: 12px;
+    margin-top: 20px;
+    height: 30px;
+    /*top: 10px;*/
+    /*position: absolute;*/
+}
+
+
+.address-app-checkbox-default {
+    background: url(./../../shop/image/baseimg/danxuan@2x.png) no-repeat center;
+    padding-left: 15px;
+    margin-left: 20px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    margin: 0 auto;
+    background-size: 100%;
+}
+
+.address-app-checkbox-select {
+    background: url(./../../shop/image/baseimg/xianzhong@2x.png) no-repeat center;
+    padding-left: 15px;
+    margin-left: 20px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    margin: 0 auto;
+    background-size: 100%;
+}
+
+.address-app-checkbox-edit {
+    background: url(./../../shop/image/baseimg/shanchu@2x.png) no-repeat center;
+    padding-left: 15px;
+    margin-left: 0px;
+    text-align: center;
+    background-size: 100%;
+}
+
+.address-app-checkbox-dele {
+    background: url(./../../shop/image/baseimg/bianji@2x.png) no-repeat center;
+    padding-left: 15px;
+    margin-left: 0px;
+    text-align: center;
+    background-size: 100%;
+}
+
+.address-app-row-edit {
+    display: inline-block;
+    /*vertical-align:middle;*/
+    /*display: inline-block;*/
+    width: 100%;
+    height: 41px;
+    margin-left: 20px;
+}
+
+.address-app-row-edit-row {
+    width: 120px;
+    /*background: red;*/
+    position: absolute;
+    display: inline-block;
+    right: 20px;
+}
+
+.address-app-row-edit div {
+    display: inline-block;
+}
+
+.address-app-row-edit-row div p {
+    display: inline;
+    height: 41px;
+    line-height: 40px;
+}
+
+.address-app-row-edit div input {
+    background: white;
+    /*width: 20%;*/
+    height: 41px;
+    margin-left: 10px;
+    width: 100px;
+    text-align: left;
+    margin: 0px;
+}
+
+.address-app-row-edit-row div input {
+    background: white;
+    /*width: 20%;*/
+    height: 41px;
+    width: 30px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.address-app-default-label {
+    padding-left: 15px;
+}
+
+/*添加地址*/
+.orderapp-add-addressform {
+    background: #fff;
+    width: 100%;
+    padding: 0 15px; }
+.orderapp-add-addressform .form-group {
+    border-bottom: 1px solid #e5e5e5;
+    padding: 10px 0;
+    line-height: 34px; }
+.orderapp-add-addressform .form-group label {
+    width: 25%;
+    float: left; }
+.orderapp-add-addressform .form-group input {
+    border: none;
+    width: 75%;
+    float: left;
+    outline: none;
+    height: 34px;
+    color: #666; }
+.orderapp-add-addressform .form-group input::-webkit-input-placeholder {
+    text-align: right; }
+.orderapp-add-addressform .form-group:last-child {
+    border-bottom: none; }
+
+
+a,button,input{
+    -webkit-user-modify: read-write-plaintext-only;
+    border: none;
+}
+
+
+.change-password-app-loginform {
+    background: #fff;
+    width: 100%;
+    height: 44px;
+    padding: 0 15px;
+    margin-top: 20px;
+}
+
+.change-password-app-loginform .change-password-form-group {
+    border-bottom: 1px solid #e5e5e5;
+    padding: 10px 0;
+    line-height: 34px;
+}
+
+.change-password-app-loginform .change-password-form-group input {
+    border: none;
+    width: 65%;
+    outline: none;
+    height: 34px;
+    font-size: 16px;
+    display: inline;
+    color: #666;
+    background: white;
+    margin-left: 8px;
+}
+
+
+
+/*用户登录*/
+.login-app-loginform {
+    background: #fff;
+    width: 100%;
+    height: 44px;
+    padding: 0 15px;
+    margin-top: 20px;
+}
+.login-app-loginform .login-form-group {
+    border-bottom: 1px solid #e5e5e5;
+    padding: 10px 0;
+    line-height: 34px;
+}
+.login-app-loginform .login-form-group label {
+    width: 45px;
+    float: left;
+    font-size: 16px;
+}
+.login-app-loginform .login-form-group input {
+    border: none;
+    width: 70%;
+    float: left;
+    outline: none;
+    height: 34px;
+    font-size: 16px;
+    display: inline;
+    color: #666;
+    background: white;
+}
+.login-app-loginform .login-form-group input::-webkit-input-placeholder {
+    text-align: left; }
+.login-app-loginform .login-form-group:last-child {
+    border-bottom: none; }
+
+#login-app-forget-pwd, #login-app-login-btn, #login-app-user-register {
+    color: white;
+    /*font-size: 16px;*/
+    background: cadetblue;
+}
+
+.login-app-psw-show {
+    margin-left: 10px;
+    width: 25px;
+    height: 25px;
+    background: hotpink;
+    float: right;
+}
+
+#login-app-forget-pwd {
+    margin-top: 15px;
+    color: darkgray;
+    background: white;
+    padding-right: 15px;
+}
+
+#login-app-login-btn {
+    margin-top: 100px;
+    width: 90%;
+    height: 44px;
+    color: white;
+    background: orangered;
+    font-size: 17px;
+    -webkit-border-radius: 4px;
+    border: 1px solid rgba(81,84,89,1);
+}
+
+#login-app-user-register {
+    margin-top: 20px;
+    color: orangered;
+    font-size: 16px;
+    background: white;
+}
+
+#login-app-logindiv {
+    width: 100%;
+    background: royalblue;
+    position: relative;
+}
+
+
+/*用户注册*/
+
+.register-app-content {
+    width: 100%;
+    padding: 10px 2%;
+    margin-top: 10px;
+}
+.register-form-group {
+    height: 44px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.register-form-group input {
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+.register-form-group label {
+    width: 60px;
+    margin-left: 10px;
+}
+
+#register-app-get-verification {
+    float: right;
+    padding-right: 15px;
+    color: red;
+    background: white;
+}
+
+#register-app-registerbtn {
+    width: 100%;
+    height: 44px;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    background: orangered;
+    font-size: 17px;
+    -webkit-border-radius: 4px;
+    border: 1px solid rgba(81,84,89,1);
+}
+
+#register-app-protocol-label {
+    margin-top: 10px;
+    font-size: 17px;
+} #register-app-protocol-btn {
+      color: orangered;
+  }
+
+
+/*商品分类*/
+/*#classify-body body {
+    overflow: hidden;
+    background: red;
+}*/
+
+.classify-app-search-header {
+    width: 100%;
+    height: 49px;
+    left: 0px;
+    top: 0px;
+    background: rgba(243,243,243,1);
+    border: 1px solid rgba(225,225,225,1);
+    position: fixed;
+    padding-left: 10px;
+}
+
+
+.classify-app-back-btn, #classify-app-searchicon {
+    position: absolute;
+    font-size: 16px;
+    text-align: center;
+}
+
+.classify-app-back-btn {
+    /*padding-left: 15px;*/
+    /*margin-top:7px;*/
+    margin-left: 20px;
+    margin-top: 8px;
+    position: absolute;
+    height: 30px;
+    width: 18px;
+    background: url(./../../shop/image/baseimg/fanhui@2x.png) no-repeat center;
+}
+
+#classify-app-searchicon {
+    margin-top: 10px;
+    width: 27px;
+    height: 28px;
+    background: url(./../../shop/image/baseimg/search.png) no-repeat center;
+}
+
+#classify-app-searchtext {
+    margin-left: 45px;
+    margin-top: 7px;
+    font-size: 16px;
+    height: 30px;
+    width: 60%;
+    position: absolute;
+    background:transparent;
+}
+
+::-webkit-scrollbar { display:none; }
+
+#categories { width:120px; height:80%; overflow-y:auto; position:fixed; left:0; z-index:99; background-color:#fff; margin-top: 49px;}
+
+#categories ul li { height:47px; width:120px; border-bottom:1px solid rgba(232,232,232,1);
+}
+
+#categories ul li span { display:block; text-align:center; line-height:46px; font-size:16px; color: grey; }
+
+.current { color:rgba(223,61,19,1) !important; }
+
+#contents { display:flex; height:100%; overflow-y:auto;}
+
+#contents #detail { margin:10px 10px 10px 130px; flex-grow:1;}
+
+#contents #detail { display:flex; flex-direction:column; justify-content:space-between; background: white; margin-top: 49px;}
+
+#contents #detail div {
+    flex-grow:1; margin:10px 0; text-align:left; backgrlound-color:#efefef; width:100%; font-size:15px;
+}
+
+.clssify-app-product-section-header {
+    width: 60px;
+    height: 30px;
+    background: rgba(225,225,225,1);
+    text-align: center;
+    line-height: 30px;/*垂直居中*/
+    font-size: 13px;
+    -webkit-border-radius: 5px;
+}
+
+.classify-app-product-row {
+    margin-top: 10px;
+    width: 33.3%;
+    height:30px;
+    float: left;
+    display: inline-block;
+}
+
+.classify-app-product-row a img {
+    width: 100%;
+    height: 80%;
+    /*background: red;*/
+}
+
+.clssify-app-product-content-ul a.classify-app-productname {
+    text-align: center;
+    display: block;
+    color: grey;
+    font-size: 13px;
+}
+
+/*搜索界面*/
+#search-app-searchbtn {
+    margin-top: 10px;
+    margin-right: 15px;
+    /*position: absolute;*/
+    float: right;
+    width: 45px;
+    height: 30px;
+    color: white;
+    background: orangered;
+    -webkit-border-radius: 3px;
+}
+
+.search-app-search-header {
+    width: 100%;
+    height: 49px;
+    left: 0px;
+    top: 44px;
+    background: rgba(243,243,243,1);
+    border: 1px solid rgba(225,225,225,1);
+    position: fixed;
+    padding-left: 10px;
+}
+
+/*搜索展示界面*/
+
+#search-show-body {
+    background: rgba(243,243,243,1);
+}
+
+#searchshow-app-searchbtn {
+    margin-left: 45px;
+    margin-top: 9px;
+    padding: 10px 30px 5px 5px;
+    text-align: center;
+    z-index: 999;
+    position: relative;
+    background: rgba(127,127,127,1);
+    -webkit-border-radius: 3px;
+}
+
+#searchshow-app-cancel-searchbtn {
+    width: 20px;
+    height: 20px;
+    background: royalblue;
+    z-index: 999;
+    margin-left: -22px;
+    margin-top: -5px;
+    position: absolute;
+    top: 20px;
+    background: url(./../../shop/image/baseimg/shan@2x.png) no-repeat center;
+}
+
+#searchshow-app-filter {
+    background: white;
+    width: 100%;
+    height: 44px;
+    font-size: 16px;
+    border-bottom: 1px solid rgba(229,229,229,1);
+}
+
+#searchshow-app-filter-sortbtn {
+    width: 80px;
+    height: 34px;
+    margin-top: 5px;
+    margin-left: 15px;
+    color: red;
+    text-align: center;
+    background: white;
+}
+
+#searchshow-app-filter input {
+    margin-left: 15px;
+    border: 1px solid grey;
+    width: 45px;
+}
+
+#searchshow-app-filter input:first-child {
+    margin-left: 15px;
+    width: 15%;
+    border: 0px;
+}
+
+#searchshow-app-filter span {
+    margin-left: 10px;
+}
+
+#searchshow-app-filter #searchshow-app-filter-sales {
+    margin-left: 20px;
+}
+
+#searchshow-app-filter #searchshow-app-filter-price {
+    margin-left: 10px;
+}
+
+#searchshow-app-filter-show-content {
+    width: 100%;
+    height: 257px;
+    margin-top: 49px;
+}
+
+#searchshow-app-filter-show-content ul {
+    background: red;
+    /*height: 20px;*/
+}
+
+#searchshow-app-filter-show-content ul li {
+    width: 50%;
+    height: 100%;
+    float: left;
+    font-size: 15px;
+    list-style-type:none;
+    /*background: red;*/
+}
+
+#searchshow-app-filter-show-content ul li p:last-child {
+    font-size: 17px;
+    color: red;
+}
+
+#searchshow-app-filter-show-content ul li img {
+    width: 100%;
+    height: 198px;
+
+}
+
+.searchshow-app-filter-product {
+    width: 98%;
+    height: 100%;
+    padding-left: 4px;
+    padding-right: 4px;
+    background: white;
+    margin-top: 10px;
+}
+
+.searchshow-app-filter-product-name {
+    display: -webkit-box;
+    font-size: 15px;
+    -webkit-line-clamp:2;
+    -webkit-box-orient: vertical;
+    overflow : hidden;
+    /*position: relative;*/
+}
+
+#searchshow-app-filter-default {
+    /*margin-top: 100px;*/
+    /*margin-left: 0px;*/
+    /*margin: 0 auto;*/
+    left: 0px;
+    top: 144px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#searchshow-app-filter-default ul {
+    width: 100%;
+    opacity: 1;
+    z-index: 100;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+.searchshow-app-filter-default-row {
+    width: 100%;
+    height: 44px;
+    background: white;
+    border-bottom: 1px solid rgba(225,225,225,1);
+}
+
+.searchshow-app-filter-default-row p {
+    margin-left: 10px;
+    color: red;
+    height: 30px;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+#searchshow-app-filter-shadow {
+
+    width: 100%;
+    /*margin-left: 0px;*/
+    /*margin-top: 0px;*/
+    height: 100%;
+    opacity:0.3;
+    bottom: 0px;
+    left: 0px;
+    background: black;
+    /*position: relative;*/
+}
+
+/*商品详情*/
+
+#product-detail-body {
+    background: rgba(243,243,243,1);
+}
+
+#product-detail-app-footer {
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 44px;
+    position: fixed;
+    background: white;
+    /*background: chartreuse;*/
+}
+
+#product-detail-app-footer {
+    display: inline-block;
+    font-size: 0px;
+}
+
+/*#product-detail-app-footer i {*/
+/*background: url("image/shopping_cart.png") no-repeat center;*/
+/*background-size: 100%;*/
+/*border: none;*/
+/*width: 20%;*/
+/*height: 40px;*/
+/*margin-left: 10px;*/
+/*}*/
+
+#product-detail-app-footer input {
+    width: 42.3%;
+    height: 44px;
+    padding-left: 0px;
+    margin-left: 0px;
+    color: white;
+    -webkit-border-radius: 0px;
+    font-size: 16px;
+    background: orangered;
+    -webkit-appearance : none;
+}
+
+#product-detail-app-footer i {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 8%;
+    background: red;
+    text-align: center;
+    font-size: 12px;
+    -webkit-border-radius: 7.5px;
+}
+
+#product-detail-app-footer input:first-child {
+    background: url(./../../shop/image/baseimg/shop@2x.png) no-repeat center;
+    float: left;
+    width: 15.0%;
+}
+
+#product-detail-app-footer #product-detail-app-addshopping-cart {
+    background: rgba(255,148,2,1);
+}
+
+#product-detail-app-header #myCarousel .item {
+    width: 100%;
+    height: 290px;
+}
+
+#product-detail-app-info {
+    font-size: 16px;
+    background: white;
+    border-bottom: 1px solid rgba(247,247,247,1);
+}
+
+#product-detail-app-info p {
+    margin-left: 15px;
+}
+
+#product-detail-app-info #product-detail-app-info-name {
+    margin-top: 15px;
+    padding-top: 5px;
+    font-size: 18px;
+}
+
+#product-detail-app-info #product-detail-app-info-current-price {
+    color: red;
+}
+
+#product-detail-app-info #product-detail-app-info-current-price span{
+    font-size: 20px;
+}
+
+#product-detail-app-info #product-detail-app-info-original-price {
+    color: grey;
+    border-bottom: 1px solid rgba(247,247,247,1);
+}
+
+#product-detail-app-activity-preferential span:first-child {
+    color: orangered;
+    border: 1px solid orangered;
+    margin-left: 0px;
+}
+
+#product-detail-app-activity-preferential span {
+    border: 0px solid white;
+    color: grey;
+    margin-left: 10px;
+}
+
+#product-detail-app-upward {
+    /*bottom: 55px;*/
+    /*left:0px;*/
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    color: gray;
+    /*position: absolute;*/
+    overflow: hidden;
+}
+
+.font-color-red {
+    color: red;
+}
+
+#product-detail-app-info-div {
+    width: 100%;
+    height: 40px;
+    margin-top: 7px;
+    border-bottom: 1px solid rgba(247,247,247,1);
+}
+
+#product-detail-app-info-div input {
+    width: 50%;
+    height: 100%;
+    float: left;
+    border-left: 1px solid rgba(247,247,247,1);
+    -webkit-border-radius: 0px;
+    background: white;
+}
+
+#product-detail-app-info-div-content {
+    /*overflow:hidden;*/
+    width:100%;
+    height:100px;
+    margin-top: 10px;
+    position:relative;
+}
+
+#product-detail-app-info-div-content ul {
+    /*position:absolute;left:0;top:0;height:100px;*/
+    width: 100%;
+}
+
+#product-detail-app-info-div-content ul li {
+    width:100%;
+    /*height:100px;*/
+    /*float:left;*/
+    list-style-type:none;
+}
+
+#product-detail-app-info-div-content ul li img {
+    width: 100%;
+    height: 100%;
+}
+
+#product-detail-app-info-param  {
+    width: 100%;
+    /*height: 40px;*/
+}
+
+.product-detail-app-info-param-row {
+    width: 100%;
+    height: 40px;
+    background: white;
+    border-bottom: 1px solid rgba(247,247,247,1);
+}
+
+.product-detail-app-info-param-row p {
+    margin-left: 15px;
+    padding-top: 10px;
+    color: grey;
+    width: 100%;
+}
+
+.product-detail-app-info-param-row p span {
+    margin-left: 15px;
+    /*margin-right: 20px;*/
+    /*text-align: center;*/
+    /*width: 40%;*/
+    color: black;
+    /*float: right;*/
+    -webkit-line-clamp:2;
+    -webkit-box-orient: vertical;
+    overflow : hidden;
+}
+
+/*找回密码*/
+.find-pws-form-group {
+    border-bottom: 1px solid #e5e5e5;
+    padding: 3px 0;
+    line-height: 34px;
+    font-size: 16px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.find-pws-form-group label {
+    width: 45px;
+    float: left;
+    font-size: 16px;
+    margin-left: 20px;
+}
+.find-pws-form-group input {
+    width: 65%;
+}
+
+/*修改昵称*/
+#change-nickname-app-new-nickname-div {
+    width: 100%;
+    height: 44px;
+    background: rgba(243,243,243,1);
+    margin-top: 50px;
+    border: 1px solid rgba(225,225,225,1);
+}
+
+#change-nickname-app-new-nickname-div #change-nickname-app-new-nickname-text {
+    margin-left: 10px;
+    width: 80%;
+    height: 43px;
+    background: rgba(243,243,243,1);
+
+}
+
+#change-app-new-nickname-save {
+    margin-top: 40px;
+    width: 90%;
+    height: 44px;
+    color: white;
+    background: orangered;
+    font-size: 17px;
+    margin-left: 5%;
+    -webkit-border-radius: 4px;
+    border: 1px solid rgba(81, 84, 89, 1);
+}
+/*#product-detail-app-header #myCarousel*/

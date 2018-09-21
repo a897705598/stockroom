@@ -1,0 +1,26 @@
+
+.center{
+    text-align: center;
+}
+body{
+        background: #f5f8fd;
+    }
+    .policy-wrap{
+        width: 80%;
+        margin: 50px auto;
+        line-height: 30px;
+        letter-spacing: 1px;
+        box-shadow:0px 0px 6px rgba(0, 0, 0,.1);
+        background:#fff;
+        padding:30px 8% 60px;
+        box-sizing: border-box;
+    }
+    .policy-wrap h3{
+        text-align: center;
+    }
+    .policy-wrap dl dt{
+        font-weight: bold;
+    }
+  .policy-wrap dl dd{
+    margin-bottom: 10px;
+  }

@@ -1,0 +1,397 @@
+@charset "UTF-8";
+/*scss common*/
+/*图片地址变量*/
+/*背景变量 设置*/
+/*按钮变量 设置*/
+/*渐变变量 设置*/
+/*字体变量 设置*/
+/*form 验证*/
+/*全局样式*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "微软雅黑", "Helvetica Neue",Helvetica,Arial,sans-serif !important; }
+
+body {
+  font-size: 14px !important;
+  padding: 0;
+  margin: 0;
+  color: #666; }
+
+p, a {
+  padding: 0;
+  margin: 0; }
+
+ul, li {
+  list-style: none; }
+
+i {
+  font-style: normal; }
+
+a {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none !important; }
+
+h1, h2, h3, h4, h5, h6, ul, li, p, dl, dt, dd, strong, label {
+  padding: 0;
+  margin: 0;
+  font-weight: normal; }
+
+h4 {
+  font-size: 16px; }
+
+.clear {
+  clear: both; }
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: ""; }
+
+.clearfix:after {
+  clear: both; }
+
+.hide {
+  display: none !important; }
+
+/*before icon*/
+/*模态框样式重置*/
+/*字体大小*/
+.font-small-size {
+  font-size: 12px; }
+
+.font-base-size {
+  font-size: 14px; }
+
+.font-big-size {
+  font-size: 16px; }
+
+/*字体颜色样式*/
+.font-dark-color {
+  color: #333; }
+
+.font-light-color {
+  color: #999; }
+
+.font-warn-color {
+  color: #ff4a25; }
+
+.font-del-color {
+  color: #ccc; }
+
+/*文本对齐样式*/
+.text-left {
+  text-align: left; }
+
+.text-right {
+  text-align: right; }
+
+.text-center {
+  text-align: center; }
+
+.float-right {
+  float: right; }
+
+/*换行样式*/
+.word-break {
+  word-break: break-all; }
+
+/*边距样式*/
+.pt-10 {
+  padding-top: 10px; }
+
+.pl-15 {
+  padding-left: 15px; }
+
+.pr-15 {
+  padding-right: 15px; }
+
+.pb-26 {
+  padding-bottom: 26px; }
+
+.pt-47 {
+  padding-top: 47px; }
+
+.mt-26 {
+  margin-top: 26px; }
+
+.mb-8 {
+  margin-bottom: 8px; }
+
+.mb-26 {
+  margin-bottom: 13px; }
+
+.mb-70 {
+  margin-bottom: 70px; }
+
+/*百分比样式*/
+/*边框*/
+.border-all {
+  border: 1px solid #e5e5e5; }
+
+.border-top {
+  border-top: 1px solid #e5e5e5; }
+
+.border-left {
+  border-left: 1px solid #e5e5e5; }
+
+.border-right {
+  border-right: 1px solid #e5e5e5; }
+
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5; }
+
+/*手型*/
+.cursor-pointer {
+  cursor: pointer; }
+
+/*按钮*/
+.priamry-btn {
+  padding: 8px 12px;
+  border-radius: 4px;
+  background: none;
+  border: 1px solid #e5e5e5;
+  outline: none;
+  cursor: pointer; }
+
+.default-btn {
+  border-color: #2e6da4;
+  color: #2e6da4; }
+  .default-btn:hover {
+    border-color: #2e6da4;
+    color: #2e6da4; }
+
+.warn-btn {
+  border: 1px solid #ff4a25;
+  color: #ff4a25 !important; }
+
+.block-btn {
+  padding: 10px 12px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  margin-top: 13px;
+  color: #666; }
+
+.green-btn {
+  background: #04be02;
+  color: #fff; }
+  .green-btn:hover {
+    color: #fff !important; }
+
+/*单选框样式*/
+.radio-primary {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #999;
+  border-radius: 50%; }
+  .radio-primary i {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    background: #999;
+    text-align: center;
+    vertical-align: top; }
+
+.radio-checked {
+  border: 2px solid #ff4a25; }
+  .radio-checked i {
+    background: #ff4a25; }
+
+/*tooltips*/
+.tooltips {
+  padding: 5px 10px;
+  background: #fff;
+  line-height: 20px;
+  word-break: break-all; }
+
+.triangle {
+  position: absolute;
+  top: 10px;
+  left: -6px;
+  width: 8px;
+  height: 10px;
+  background: #fff;
+  border-bottom: 1px dashed #ff4a25;
+  border-right: 1px dashed #ff4a25;
+  -ms-transform: rotate(138deg);
+  -moz-transform: rotate(138deg);
+  -webkit-transform: rotate(138deg);
+  -o-transform: rotate(138deg);
+  transform: rotate(138deg); }
+
+/*步骤条 step bar*/
+/*step bar*/
+.css-order-step {
+  background: #fff;
+  overflow: hidden;
+  padding: 17px 34px;
+  margin-bottom: 14px; }
+
+.step-bar {
+  padding-top: 38px;
+  padding-bottom: 60px;
+  width: 100%;
+  margin: 0 auto; }
+
+.ui-step {
+  color: #b7b7b7;
+  padding: 0 30px;
+  margin-bottom: 35px;
+  position: relative;
+  /*.step-end {
+  	width: 120px;
+  	position: absolute;
+  	top: 0;
+  	right: -60px;
+  	.ui-step-line { 
+  		display: none; 
+  	}
+  }*/ }
+  .ui-step:after {
+    display: block;
+    content: "";
+    height: 0;
+    font-size: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden; }
+  .ui-step li {
+    float: left;
+    position: relative; }
+  .ui-step .step-start {
+    width: 120px;
+    position: absolute;
+    top: 0;
+    left: -85px;
+    z-index: 2; }
+    .ui-step .step-start .ui-step-line {
+      display: none; }
+
+.ui-step-line {
+  height: 3px;
+  background-color: #ccc;
+  margin-top: 15px; }
+
+.ui-step-cont {
+  width: 110px;
+  position: absolute;
+  top: 0;
+  /*left: -15px;*/
+  right: -90px;
+  text-align: center; }
+
+.ui-step-cont-redbg {
+  background: #d9524e url(../../order/image/baseimg/4.png) no-repeat center; }
+
+.ui-step-cont-bluebg {
+  background: #428bcb url(../../order/image/baseimg/4.png) no-repeat center; }
+
+.ui-step-cont-greenbg {
+  background: #04be02 url(../../order/image/baseimg/4.png) no-repeat center; }
+
+.ui-step-cont-number {
+  display: inline-block;
+  *zoom: 1;
+  position: absolute;
+  left: 8px;
+  top: 10px;
+  width: 12px;
+  height: 12px;
+  line-height: 17px;
+  color: #fff;
+  border-radius: 50%;
+  background-color: #ccc;
+  z-index: 2; }
+
+.ui-step-cont-number-big {
+  top: 8px;
+  width: 17px;
+  height: 17px;
+  line-height: 17px; }
+
+.ui-step-cont-text {
+  position: relative;
+  top: 38px;
+  left: -36px;
+  font-size: 12px;
+  line-height: 20px;
+  width: 100px; }
+
+/*step length*/
+.ui-step-3 li {
+  width: 50%; }
+
+.ui-step-4 li {
+  width: 33.3%; }
+
+.ui-step-5 li {
+  width: 25%; }
+
+.ui-step-6 li {
+  width: 20%; }
+
+.ui-step-7 li {
+  width: 16.6%; }
+
+/* Done */
+.step-red .step-done .ui-step-cont-number {
+  background-color: #d9524e; }
+.step-red .step-done .ui-step-cont-text {
+  color: #d9524e; }
+.step-red .step-done .ui-step-line {
+  background-color: #d9524e; }
+
+.step-blue .step-done .ui-step-cont-number {
+  background-color: #428bcb; }
+.step-blue .step-done .ui-step-cont-text {
+  color: #428bcb; }
+.step-blue .step-done .ui-step-line {
+  background-color: #428bcb; }
+
+.step-green .step-done .ui-step-cont-number {
+  background-color: #04be02; }
+.step-green .step-done .ui-step-cont-text {
+  color: #04be02; }
+.step-green .step-done .ui-step-line {
+  background-color: #04be02; }
+
+/* Active */
+.step-red .step-active .ui-step-cont-number {
+  background-color: #d9524e; }
+.step-red .step-active .ui-step-cont-text {
+  color: #d9524e; }
+.step-red .step-active .ui-step-line {
+  background-color: #d9524e; }
+
+.step-blue .step-active .ui-step-cont-number {
+  background-color: #428bcb; }
+.step-blue .step-active .ui-step-cont-text {
+  color: #428bcb; }
+.step-blue .step-active .ui-step-line {
+  background-color: #428bcb; }
+
+.step-green .step-active .ui-step-cont-number {
+  background-color: #04be02; }
+.step-green .step-active .ui-step-cont-text {
+  color: #04be02; }
+.step-green .step-active .ui-step-line {
+  background-color: #04be02; }
+
+/*step bar*/
+
+/*# sourceMappingURL=common.css.map */

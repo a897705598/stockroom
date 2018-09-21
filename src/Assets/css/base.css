@@ -1,0 +1,33 @@
+/*boostrap公共样式修改*/
+
+/*模态框边框*/
+.modal{
+    border: none;
+}
+/*按钮大小*/
+.modal-footer .btn{
+    height: 34px;
+    line-height: 22px;
+    border-radius: 2px;
+}
+a{
+    cursor: pointer;
+}
+/*关联图标样式*/
+.guanlian_logo::after{
+    content: "";
+    display: inline-block;
+    background: url("../images/guanlian@3x.png") no-repeat center;
+    width: 16px;
+    height:16px;
+    background-size: 12px 12px;
+    vertical-align: sub;
+}
+/*必填左侧星号*/
+.must{
+    margin-right: 8px;
+    color: red;
+    font-size: 100%;
+    display: inline-block;
+    height: 30px;
+}

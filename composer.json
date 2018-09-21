@@ -1,0 +1,31 @@
+{
+    "name": "jxc/stockroom",
+    "description": "jxc stockroom module",
+    "type": "library",
+    "authors": [
+        {
+            "name": "MrGuin",
+            "email": "mrguin33@qq.com"
+        }
+    ],
+    "require": {
+        "php-packages/structured-response": "^0.0.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jxc\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jxc\\Provider\\JxcStockroomProvider"]
+        }
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/3930615/php-packages-structured-response.git"
+        }
+    ]
+}
