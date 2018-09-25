@@ -16,7 +16,7 @@ class AresStockroomProvider extends ServiceProvider
         $this->loadMigrationsFrom(__DIR__.'/../Migration');
         $this->loadRoutesFrom(__DIR__.'/../routes.php');
         $this->publishes([
-            __DIR__.'/../View' => resource_path('views/ares'),
+            __DIR__.'/../View' => resource_path('views/ares/basic'),
         ]);
         $this->publishes([
             __DIR__.'/../Assets' => public_path('assets'),
