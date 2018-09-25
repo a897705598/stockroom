@@ -19,7 +19,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Ares\\Provider\\JxcStockroomProvider"]
+                "Ares\\Provider\\AresStockroomProvider"]
         }
     },
     "repositories": [
