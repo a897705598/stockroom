@@ -1,10 +1,10 @@
 <?php
 
-namespace Jxc\Provider;
+namespace Ares\Provider;
 
 use Illuminate\Support\ServiceProvider;
 
-class JxcStockroomProvider extends ServiceProvider
+class AresStockroomProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.
@@ -14,16 +14,24 @@ class JxcStockroomProvider extends ServiceProvider
     public function boot()
     {
         $this->loadMigrationsFrom(__DIR__.'/../Migration');
-        $this->loadViewsFrom(__DIR__.'/../View', 'jxc');
         $this->loadRoutesFrom(__DIR__.'/../routes.php');
         $this->publishes([
-            __DIR__.'/../View' => resource_path('views'),
+            __DIR__.'/../View' => resource_path('views/ares'),
         ]);
         $this->publishes([
             __DIR__.'/../Assets' => public_path('assets'),
         ]);
         $this->publishes([
             __DIR__.'/../Trait' => app_path('Traits'),
+        ]);
+        $this->publishes([
+            __DIR__.'/../Controller' => app_path('Http/Controllers/Ares')
+        ]);
+        $this->publishes([
+            __DIR__.'/../Model' => app_path('Model/Ares')
+        ]);
+        $this->publishes([
+            __DIR__.'/../Exception' => app_path('Exceptions')
         ]);
     }
 

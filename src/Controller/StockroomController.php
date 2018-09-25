@@ -1,9 +1,9 @@
 <?php
 
-namespace Jxc\Controller;
+namespace App\Http\Controllers\Ares;
 
 use App\Traits\ApiValidator;
-use Jxc\Model\Basic\Stockroom;
+use App\Model\Ares\Stockroom;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Log;
@@ -18,7 +18,7 @@ class StockroomController extends Controller
     {
         $stockrooms = Stockroom::all();
         Log::info($stockrooms);
-        return view('stockroom.stockroomList')->with('stockrooms', $stockrooms);
+        return view('ares.basic.stockroom.stockroomList')->with('stockrooms', $stockrooms);
     }
 
     public function addStockroom(Request $request)

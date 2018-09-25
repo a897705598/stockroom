@@ -1,6 +1,6 @@
 {
-    "name": "jxc/stockroom",
-    "description": "jxc stockroom module",
+    "name": "ares/stockroom",
+    "description": "ares stockroom module",
     "type": "library",
     "authors": [
         {
@@ -13,13 +13,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Jxc\\": "src/"
+            "Ares\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Jxc\\Provider\\JxcStockroomProvider"]
+                "Ares\\Provider\\JxcStockroomProvider"]
         }
     },
     "repositories": [

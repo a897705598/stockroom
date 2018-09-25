@@ -130,9 +130,9 @@
         </table>
     </div>
 </div>
-@include('stockroom.addStockroom')
-@include('stockroom.confirm')
-@include('stockroom.stockroomBindDept')
+@include('ares.basic.stockroom.addStockroom')
+@include('ares.basic.stockroom.confirm')
+@include('ares.basic.stockroom.stockroomBindDept')
 <script>
     $(function () {
         $('.btn-add').unbind('click').click(function () {
